@@ -11,8 +11,7 @@ class DishListLit extends LitElement{
     static get properties() {
         return {
             dishes: {
-                type: Array,
-                reflect: true
+                type: Array
             }
         }
     }
